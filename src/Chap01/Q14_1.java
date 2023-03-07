@@ -49,9 +49,9 @@ public class Q14_1 {
     }
 
     public static void main(String[] args) {
-//        triangle(4);
-//        triangleLB(4);
-//        triangleRU(4);
+        triangle(4);
+        triangleLB(4);
+        triangleRU(4);
         triangleRB(4);
 
     }
