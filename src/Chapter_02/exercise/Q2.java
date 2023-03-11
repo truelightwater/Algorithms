@@ -18,7 +18,7 @@ public class Q2 {
         System.out.println(Arrays.toString(a));
 
         for (int i = 0; i < a.length / 2; i++) {
-            System.out.println("a["+i+"]과 a[" +(length-i-1)+ "]를 교환합니다.");
+            System.out.println("a[" + i + "]과 a[" + (length - i - 1) + "]를 교환합니다.");
             swap(a, i, length - i - 1);
             System.out.println(Arrays.toString(a));
         }
