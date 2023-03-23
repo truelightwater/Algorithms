@@ -1,7 +1,9 @@
+package inflearn.String;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class reverse {
     public static ArrayList<String> solution(int n, String[] str) {
         ArrayList<String> answer = new ArrayList<>();
 
@@ -16,12 +18,9 @@ public class Main {
                 lt++;
                 rt--;
             }
-
             String tmp = String.valueOf(s);
             answer.add(tmp);
-
         }
-
         return answer;
     }
 
@@ -40,3 +39,4 @@ public class Main {
 
     }
 }
+
