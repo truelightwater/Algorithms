@@ -3,7 +3,8 @@ package inflearn.String;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class reverse {
+// 4. 단어 뒤집기
+public class Reverse {
     public static ArrayList<String> solution(int n, String[] str) {
         ArrayList<String> answer = new ArrayList<>();
 

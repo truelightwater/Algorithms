@@ -2,7 +2,7 @@ package Chapter_03.example;
 
 import java.util.Scanner;
 
-public class seqSearchSen {
+public class SeqSearchSen {
     static int seqSearchSen(int[] a, int n, int key) {
         int i = 0;
 

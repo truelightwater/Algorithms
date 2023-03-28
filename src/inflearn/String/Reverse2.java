@@ -2,7 +2,8 @@ package inflearn.String;
 
 import java.util.Scanner;
 
-public class reverse2 {
+// 5. 특정 문자 뒤집기
+public class Reverse2 {
     public static String solution(String str) {
         String answer= "";
 

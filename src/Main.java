@@ -1,42 +1,21 @@
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
-    public static ArrayList<String> solution(int n, String[] str) {
-        ArrayList<String> answer = new ArrayList<>();
-
-        for (String x : str) {
-            char[] s = x.toCharArray();
-            int lt = 0, rt = x.length()-1;
-
-            while (lt < rt) {
-                char tmp = s[lt];
-                s[lt] = s[rt];
-                s[rt] = tmp;
-                lt++;
-                rt--;
-            }
-
-            String tmp = String.valueOf(s);
-            answer.add(tmp);
-
-        }
-
-        return answer;
-    }
-
     public static void main(String[] args) {
-        Scanner kb = new Scanner(System.in);
-        int n =  kb.nextInt();
-        String[] str = new String[n];
 
-        for (int i = 0; i < n; i++) {
-            str[i] = kb.next();
-        }
+        Scanner input = new Scanner(System.in);
 
-        for (String x : solution(n, str)) {
-            System.out.println(x);
-        }
+        int num;
+        String str;
+        System.out.println("num입력");
+        num = input.nextInt();
+
+        System.out.println("str입력");
+        str = input.next();
+
+        System.out.println("num : " + num);
+        System.out.println("str : " + str);
+        input.close();
 
     }
 }
